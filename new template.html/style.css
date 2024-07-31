@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  /* #logo {
+    height: 0%;
+    width: 100%;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    background-color: #7a0909;
+  } */
+  
+  #navbar {
+    height: 10%;
+    width: 100%;
+    /* color: rgb(0, 0, 0); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding: 0 30px;
+    /* background-color: #4e0303; */
+  }
+  
+  #link a{
+    margin-left: 10px;
+    color: rgb(1, 0, 0);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+  }
+  #link a:hover {
+    text-decoration: underline;
+    background-color: #abcaf9;
+  }
+  
+  
+  #link i {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 500;
+    border-radius: 50%;
+  }
+  /* #logo i {
+    
+    background-color: rgb(14, 9, 1);
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    font-weight: 500;
+    border-radius: 50%;
+    
+  } */
+  
+  #center {
+    width: 100%;
+    /* background-color: #035e13; */
+    padding: 5px 70px;
+  }
+  
+  #center h1 {
+    font-size: 20px;
+    font-weight: 400;
+    /* list-style: 85px; */
+    
+  }
+  
+  #para {
+    /* background-color: #0e20c5; */
+    width: 100%;
+    padding: 5px 30px 0px 70px;
+    margin-top: 10px;
+    /* font-weight: 500; */
+    display: flex;
+    justify-content: space-between;
+    
+  
+  }
+  
+  #para p{
+    font-size: 15px;
+    font-weight: 100;
+    /* line-height: px; */
+  }
+  
+  #right{
+    width: 19%;
+  }
+  .ele{
+    /* background-color: #110101; */
+    margin: 5px;
+    padding: 5px 0;
+    border-top: 2px solid #000 ;
+    display: flex;
+    justify-content: space-between;
+  }
+  .ele i{
+    font-size: 20px;
+    font-weight: 500;
+    opacity: 0;
+  
+  
+  }
+  
+  .ele a{
+    color: rgb(1, 0, 0);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+  }
+  
+  .ele:hover i{
+    opacity: 1;
+  }
+  
+  .ele:hover a{
+    background-color: #eae5e5;
+    text-decoration: underline;
+  }
+  
+  
+  #bottom{
+    height:64%;
+    /* background-color: #aa0d0d; */
+    width: 100%;
+     background-image: url(https://cdn.pixabay.com/photo/2021/11/25/12/48/woman-6823526_960_720.jpg); 
+    background-size: cover;
+    background-position: 0 41%;
+  }
